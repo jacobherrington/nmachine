@@ -51,9 +51,9 @@ m.reject
 #=> NMachine::InvalidEventError (reject not valid from paused)
 
 m.reset.pause.reset.approve.state
-#=> Reset, the state is now paused
+#=> Reset, the state is now new
 #=> Paused, the state is now paused
-#=> Reset, the state is now paused
+#=> Reset, the state is now new
 #=> Approved, the state is now approved
 #=> :approved
 ```
